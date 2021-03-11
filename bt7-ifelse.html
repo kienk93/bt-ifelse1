@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Tính tiền cước điện thoại</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+<body>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    var a = +prompt('nhập số phút gọi')
+    var b = +prompt('nhập số tin nhắn đã nhắn')
+    var sum = a * 3000 + b * 500
+   if ( sum < 100000 ) {
+       alert('Cần nạp 100000 VND để thanh toán')
+   } else if ( sum < 200000) {
+       alert('Cần nạp 200000 VND để thanh toán')
+   } else if ( sum < 500000 ){
+       alert('Cần nạp 500000 VND để thanh toán')
+   } else {
+       alert('Cần nạp nhiều hơn 500000 VND')}
+</script>
+</body>
+</html>
